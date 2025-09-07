@@ -23,9 +23,8 @@ To avoid collisions and preserve rules traceable, the following SID ranges are u
 ```text
 | Range              | Category            |
 |--------------------|---------------------|
-| 1000000–1000999    | CVE rules           |
-| 1001000–1001999    | Malware rules       |
-| 1002000–1002999    | Exploit techniques  |
-| 1003000–1003999    | Traffic anomalies   |
-| 1009000–1009999    | Custom/PoC rules    |
-```
+| 1000000–1099999    | CVE rules           |
+| 1100000–1199999    | Malware rules       |
+| 1200000–1299999    | Exploit techniques  |
+| 1300000–1399999    | Traffic anomalies   |
+| 1400000–1499999    | Custom/PoC rules    |
